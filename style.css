@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Serif', serif;
+    
 
 }
 
@@ -16,8 +16,6 @@
 
    .li-icones img {
     height: 9vh;
-    
-    
    }
 
    .divTitulo h2{
@@ -28,6 +26,24 @@
         width: 100%;
     }
 
+    .divSubtitulo h2{
+        font-size: 2.1em;
+        margin-top: 6em;
+        
+    }
+
+    .divSubtitulo p{
+        width: 122%;
+        font-size: 2em;
+    }
+
+    .divSubtitulo .btn{
+        border-radius: 50px;
+        font-size: 2em;
+        margin: 1em;
+    }
+    
+
 }
 
 /*web*/
@@ -37,6 +53,32 @@
         font-size: 2.1em;
         width: 60%;
     }
+
+    .divSubtitulo h2{
+        font-size: 3em;
+        margin-top: 4em;
+        width: 40%;
+        color: #3A342F;
+    }
+
+    .divSubtitulo p{
+        width: 40%;
+        font-size: 2em;
+
+        
+    }
+
+    .divSubtitulo .btn{
+        border-radius: 50px;
+        font-size: 1.5em;
+        margin: 2em;
+        margin: 1em;
+        font-weight: bold;
+    }
+
+
+
+
 } 
 
 body{
@@ -53,6 +95,7 @@ header{
     width: 100%;
     position:fixed;
     z-index: 999;
+    
 }
 
 .logo{
@@ -73,6 +116,7 @@ header h1{
     align-items: center;
     color: white;
     font-size: 1em;
+    font-family: 'Roboto Serif', serif;
 }
 
 .icones{
@@ -96,10 +140,7 @@ header h1{
     
 }
 
-
-
-
-.petChapeu{
+.dogChapeu{
     background-image: url(imagens/cachorrinho-aniversario.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,7 +154,7 @@ header h1{
 }
 
 .divTitulo{
-    border: solid darkgreen;
+  /*  border: solid darkgreen;*/
     display: flex;
     color:white;
     padding: 10vh;
@@ -125,17 +166,68 @@ header h1{
 }
 
 .divTitulo h2{
-    border: solid fuchsia;
+  /*  border: solid fuchsia;*/
     display: flex;    
     padding: 15px;
     text-align: center;
+    font-family: 'Roboto Serif', serif;
 
 }
 
-.divTitulo img{
+/* .divTitulo img{
     border: solid greenyellow;
     display: flex;
     
+} */
+
+.dogTouca{
+    background-image: url(imagens/cachorrinho-touca.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height:160vh;
+    
+}
+
+.divSubtitulo h2{
+    border: solid rgb(245, 214, 14);
+    display: flex;
+    color:#3A342F;
+    padding-left: 1em;
+    position: relative;
+    z-index: 1;
+    flex-direction: column;
+    font-family: 'Roboto Serif', serif;
+    
+    
+}
+
+.divSubtitulo p{
+    border: solid rgb(255, 0, 0);
+    display: flex;    
+    padding-left: 1em;
+    text-align: left;
+    justify-content: center;
+    opacity: 1;
+    
+
+}
+
+.btn{
+   /* border: solid seagreen;*/
+    text-decoration: none;
+    padding: .75em 1em;
+    color: #F4F2F3;
+    background-color: #3A342F;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 1em;
+ 
+
 }
 
 
