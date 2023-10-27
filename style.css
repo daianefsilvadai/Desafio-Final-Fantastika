@@ -4,8 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+}
 
+body{
+    background-color: #F4F2F3;
 }
 
 /*mobile*/
@@ -17,103 +19,12 @@
    .li-icones img {
     height: 9vh;
    }
-
-   .divTitulo h2{
-        font-size: 2.1em;
-    }
-
-    .divTitulo{
-        width: 100%;
-    }
-    
-    .dogTouca{
-        background-image: url(./imagens/dog-touca-mobile.png);
-    }
-
-    .dogTouca{
-        position: relative;
-        width: 100%;
-    }
-
-    .divSubtitulo1{
-        padding-top: 0em;
-        position: unset;
-    }
-
-    .div-descricao1{
-        margin-top:6em
-    }
-
-    .dogPequeno{
-        background-image: url(./imagens/dog-sentado-mobile.png);
-    }
-
-    .dogPequeno{
-        background-position: center;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-    }
-
-    .div-descricao2{
-        width: 100%;
-        padding-top: 5em;
-    }
-    .div-descricao2 h2{
-
-    }
-
-    .div-descricao2 p{
-
-    }
-
 }
 
 /*web*/
-
 @media(min-width:701px){
-    .divTitulo h2{
-        font-size: 2.1em;
-        width: 60%;
-    }
-
-    .divSubtitulo1{
-        padding-top: 13em;
-        position: absolute;
-    }
-    
-    .dogTouca{
-        background-image: url(./imagens/dog-touca-web.png);
-    }
-
-   
-    .dogPequeno{
-        background-image: url(./imagens/dog-sentado-web.png);
-        justify-content: end;
-        display: flex;
-    }
-    .div-descricao2{
-        padding-top: 15em;
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-    }
-
-    .div-descricao2 h2{
-        width: 50%;
-    }
-    .div-descricao2 p{
-        width: 60%;
-    }
 
 } 
-
-body{
-    background-color: #F4F2F3;
-   
-    
-}
 
 header{
     display: flex;
@@ -123,7 +34,6 @@ header{
     width: 100%;
     position:fixed;
     z-index: 999;
-    
 }
 
 .logo{
@@ -148,13 +58,11 @@ header h1{
 }
 
 .icones{
-   /* border: solid greenyellow;*/
     display: flex;
     height: 10vh;
     align-items: center;
     justify-content: end;
     width: 45%;
-    
 }
 
 .icones ul{
@@ -165,70 +73,6 @@ header h1{
     align-items: center;
     justify-content: center;
     list-style: none;
-    
-}
-
-.dog-niver{
-    background-image: url("./imagens/dog-niver-web.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    height:150vh;
-    
-}
-
-.divTitulo{
-  /*  border: solid darkgreen;*/
-    display: flex;
-    color:white;
-    padding: 10vh;
-    position: relative;
-    z-index: 1;
-    flex-direction: column;
-    align-items: center;
-    top:6em;
-}
-
-.divTitulo h2{
-  /*  border: solid fuchsia;*/
-    display: flex;    
-    padding: 15px;
-    text-align: center;
-    font-family: 'Roboto Serif', serif;
-
-}
-
-.dogTouca{
-   /* background-image: url(imagens/cachorrinho-touca.png);*/
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:150vh;
-    
-}
-
-.divSubtitulo1{
-    width: 50%;
-}
-
-.div-descricao1{
-    padding: 2em;
-}
-
-.div-descricao1 h2{
-    font-size: 2.3em;
-    width: 9em;
-    color:#3A342F;    
-    font-family: 'Roboto Serif', serif;
-}
-
-.div-descricao1 p {
-    font-size: 2em;
-    width: 13em;
-    margin-top: 1em;
 }
 
 .btn {
@@ -241,45 +85,29 @@ header h1{
     font-size: 1em;
     margin-top: 2em;
     font-weight: bold;
-
 }
 
-#btnwhite{
+.patrocinio{
+    border: solid firebrick;
+    display: flex;
     background-color: #FFFFFF;
-    color: #000000;
-    border: #FFFFFF;
-    font-weight: bold;
-}
-
-.dogPequeno{
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:160vh;
     width: 100%;
-   
+    height: 20vh;
+    align-items: center;
+    
 }
 
- .div-descricao2{
-    padding: 2em;
-    
-    
-} 
-
-.div-descricao2 h2{
-    font-size: 2.3em;
-    color:#FFFFFF;    
-    font-family: 'Roboto Serif', serif;
-}
-
-.div-descricao2 p{
+.div-patrocinio p{
+    display: flex;
+    color: #FD6A9A;
     font-size: 2em;
-    margin-top: 1em;
-    color: #FFFFFF; ;
+    
 }
 
 
-
-
-
-
-
+.div-patrocinio {
+    border: solid gold;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}

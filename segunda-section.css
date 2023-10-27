@@ -1,0 +1,60 @@
+@media(min-width:201px) and (max-width: 700px){
+    .dogTouca{
+        background-image: url(./imagens/dog-touca-mobile.png);
+    }
+
+    .dogTouca{
+        position: relative;
+        width: 100%;
+    }
+
+    .divSubtitulo1{
+        padding-top: 0em;
+        position: unset;
+    }
+}
+
+@media(min-width:701px){
+    .dogTouca{
+        background-image: url(./imagens/dog-touca-web.png);
+    }
+
+    .divSubtitulo1{
+        padding-top: 13em;
+        position: absolute;
+    }
+    
+}
+
+.dogTouca{
+    /* background-image: url(imagens/cachorrinho-touca.png);*/
+     background-repeat: no-repeat;
+     background-size: cover;
+     height:150vh;
+     
+ }
+
+ .divSubtitulo1{
+    width: 50%;
+}
+
+.div-descricao1{
+    padding: 2em;
+}
+
+.div-descricao1 h2{
+    font-size: 2.3em;
+    width: 9em;
+    color:#3A342F;    
+    font-family: 'Roboto Serif', serif;
+}
+
+.div-descricao1 p {
+    font-size: 2em;
+    width: 13em;
+    margin-top: 1em;
+}
+
+.div-descricao1{
+    margin-top:6em
+}

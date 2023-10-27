@@ -1,0 +1,77 @@
+/*mobile*/
+@media(min-width:201px) and (max-width: 700px) {
+
+    .dogPequeno {
+        background-image: url(./imagens/dog-sentado-mobile.png);
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+    .div-descricao2 {
+        padding-top: 2em;
+    }
+
+
+}
+
+/*web*/
+@media(min-width:701px) {
+    .dogPequeno {
+        background-image: url(./imagens/dog-sentado-web.png);
+        justify-content: end;
+        display: flex;
+    }
+
+    .div-descricao2 {
+        padding-top: 15em;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .div-descricao2 h2 {
+        width: 50%;
+    }
+
+    .div-descricao2 p {
+        width: 60%;
+    }
+
+}
+
+.dogPequeno {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160vh;
+    width: 100%;
+
+}
+
+.div-descricao2 {
+    padding-left: 2em;
+}
+
+
+.div-descricao2 h2 {
+    font-size: 2.3em;
+    color: #FFFFFF;
+    font-family: 'Roboto Serif', serif;
+}
+
+.div-descricao2 p {
+    font-size: 2em;
+    margin-top: 1em;
+    color: #FFFFFF;
+    ;
+}
+
+#btnwhite {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: #FFFFFF;
+    font-weight: bold;
+}
