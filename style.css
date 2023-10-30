@@ -1,42 +1,183 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #F4F2F3;
 }
 
 /*mobile*/
-@media(min-width:201px) and (max-width: 700px){
-   .li-icones{
+@media(min-width:201px) and (max-width: 700px) {
+    .li-icones {
         display: none;
-   }
+    }
 
-   .li-icones img {
-    height: 9vh;
-   }
+    .li-icones img {
+        height: 9vh;
+    }
+
+    .patrocinio {
+        flex-direction: column;
+        height: 30vh;
+    }
+
+    .div-patrocinio {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 1em;
+    }
+
+    .marcas {
+        width: 100%;
+    }
+
+    .rodape {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div-rodape {
+        width: 80%;
+        margin-bottom: 10vh;
+    }
+
+    .rodape-logo {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 10px;
+        font-size: 24px;
+        margin-top: 10vh;
+    }
+
+    .img-rodape-logo {
+        display: flex;
+        height: 15vh;
+    }
+
+    .icones-rodape {
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .li-icones-rodape img {
+        height: 7vh;
+    }
+
+    .icones-rodape ul {
+
+        display: flex;
+        width: 100%;
+        height: 7vh;
+        gap: 19px;
+    }
+
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contato h2 {
+        display: flex;
+        font-size: 1.6em;
+        margin: 2em 0 1em 0;
+        font-family: 'Roboto Serif', serif;
+    }
+
+    .contato li {
+        margin-bottom: 15px;
+        font-size: 1.5em;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .contato ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
 }
 
+
+
 /*web*/
-@media(min-width:701px){
+@media(min-width:701px) {
 
-} 
+    .patrocinio {
+        height: 20vh;
+    }
 
-header{
+    .div-patrocinio {
+        display: flex;
+        width: 20%;
+        justify-content: center;
+    }
+
+    .marcas {
+        width: 50%;
+    }
+
+    .rodape {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 60vh;
+    }
+
+    .div-rodape {
+        display: flex;
+        width: 60%;
+        height: 40vh;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .rodape-logo {
+        display: none;
+    }
+
+    .icones-rodape {
+        display: none;
+    }
+
+    .div-rodape h2 {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .div-rodape li {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+}
+
+header {
     display: flex;
     background-color: #252525;
     height: 12vh;
-    align-items: center;    
+    align-items: center;
     width: 100%;
-    position:fixed;
+    position: fixed;
     z-index: 999;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -44,12 +185,12 @@ header{
     padding-left: 40px;
 }
 
-.img-logo{
+.img-logo {
     display: flex;
     height: 6vh;
 }
 
-header h1{
+header h1 {
     display: flex;
     align-items: center;
     color: white;
@@ -57,7 +198,7 @@ header h1{
     font-family: 'Roboto Serif', serif;
 }
 
-.icones{
+.icones {
     display: flex;
     height: 10vh;
     align-items: center;
@@ -65,7 +206,7 @@ header h1{
     width: 45%;
 }
 
-.icones ul{
+.icones ul {
     display: flex;
     width: 100%;
     height: 5vh;
@@ -87,27 +228,33 @@ header h1{
     font-weight: bold;
 }
 
-.patrocinio{
-    border: solid firebrick;
+.patrocinio {
     display: flex;
     background-color: #FFFFFF;
     width: 100%;
-    height: 20vh;
     align-items: center;
-    
+    justify-content: center;
 }
 
-.div-patrocinio p{
+.div-patrocinio p {
     display: flex;
     color: #FD6A9A;
     font-size: 2em;
-    
+    font-style: italic;
+}
+
+.marcas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape {
+    background-color: #EB4A7B;
+    color: #FFFFFF;
 }
 
 
-.div-patrocinio {
-    border: solid gold;
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
+
+.div-rodape ul {
+    list-style-type: none;
 }
