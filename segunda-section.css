@@ -2,8 +2,22 @@
     .dogTouca {
         background-image: url(./imagens/dog-touca-mobile.png);
         background-repeat: no-repeat;
-        background-size: 100% 190vh;
-        height: 190vh;
+        background-size: 100% 90vh;
+        height: 90vh;
+    }
+
+    .div-descricao1{
+        padding-top: 5em;
+    }
+
+    .div-descricao1 h3 {
+        font-size: 1.7em;
+        width: 9em;
+    }
+    
+    .div-descricao1 p {
+        font-size: 0.8em;
+        width: 19em;
     }
 }
 
@@ -14,6 +28,20 @@
         background-size: 100% 120vh;
         background-repeat: no-repeat;
     }
+
+    .div-descricao1{
+        padding-top: 8em;
+    }
+
+    .div-descricao1 h3 {
+        font-size: 3em;
+        width: 9em;
+    }
+    
+    .div-descricao1 p {
+        font-size: 1.5em;
+        width: 15em;
+    }
 }
 
 .divSubtitulo1 {
@@ -22,19 +50,14 @@
 
 .div-descricao1 {
     padding-left: 2em;
-    padding-top: 8em;
 }
 
 .div-descricao1 h3 {
-    font-size: 3em;
-    width: 9em;
     color: #3A342F;
     font-family: 'Roboto Serif', serif;
 }
 
 .div-descricao1 p {
-    font-size: 1.5em;
-    width: 15em;
     margin-top: 1em;
     font-family: 'Roboto', sans-serif;
 }

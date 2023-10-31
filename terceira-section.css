@@ -7,10 +7,21 @@
         display: flex;
         justify-content: center;
         align-items: flex-start;
+        background-size: 100% 90vh;
+        height: 90vh;
     }
 
     .div-descricao2 {
-        padding-top: 2em;
+        padding-top: 5em;
+    }
+
+    .div-descricao2 h3 {
+        font-size: 1.6em;
+    }
+
+    .div-descricao2 p{
+        font-size: 0.8em;
+        width: 70%;
     }
 }
 
@@ -20,6 +31,8 @@
         background-image: url(./imagens/dog-sentado-web.png);
         justify-content: end;
         display: flex;
+        background-size: 100% 150vh;
+        height: 150vh;
     }
 
     .div-descricao2 {
@@ -28,40 +41,38 @@
         display: flex;
         flex-direction: column;
         align-items: start;
+        padding-top: 8em;
+
     }
 
     .div-descricao2 h3 {
+        font-size: 3em;
         width: 50%;
     }
 
     .div-descricao2 p {
-        width: 60%;
+        font-size: 2em;
+        width: 84%;
     }
 
 }
 
 .dogPequeno {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 190vh;
+    background-repeat: no-repeat;    
     width: 100%;
 }
 
 .div-descricao2 {
-    padding-left: 2em;
-    padding-top: 8em;
+    padding-left: 2em;    
 }
 
-.div-descricao2 h3 {
-    font-size: 3em;
+.div-descricao2 h3 {    
     color: #FFFFFF;
     font-family: 'Roboto Serif', serif;
 }
 
 .div-descricao2 p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
-    width: 15em;
+    font-family: 'Roboto', sans-serif;   
     margin-top: 1em;
     color: #FFFFFF;
 }
