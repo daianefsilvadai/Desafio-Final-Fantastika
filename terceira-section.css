@@ -9,15 +9,12 @@
         align-items: flex-start;
     }
 
-
     .div-descricao2 {
         padding-top: 2em;
     }
-
-
 }
 
-/*web*/
+
 @media(min-width:701px) {
     .dogPequeno {
         background-image: url(./imagens/dog-sentado-web.png);
@@ -33,7 +30,7 @@
         align-items: start;
     }
 
-    .div-descricao2 h2 {
+    .div-descricao2 h3 {
         width: 50%;
     }
 
@@ -46,27 +43,27 @@
 .dogPequeno {
     background-repeat: no-repeat;
     background-size: cover;
-    height: 160vh;
+    height: 190vh;
     width: 100%;
-
 }
 
 .div-descricao2 {
     padding-left: 2em;
+    padding-top: 8em;
 }
 
-
-.div-descricao2 h2 {
-    font-size: 2.3em;
+.div-descricao2 h3 {
+    font-size: 3em;
     color: #FFFFFF;
     font-family: 'Roboto Serif', serif;
 }
 
 .div-descricao2 p {
-    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    width: 15em;
     margin-top: 1em;
     color: #FFFFFF;
-    ;
 }
 
 #btnwhite {
