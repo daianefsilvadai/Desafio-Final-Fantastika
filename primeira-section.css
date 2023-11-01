@@ -1,20 +1,11 @@
-.dog-niver {
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-}
-
 @media(min-width:201px) and (max-width: 700px) {
-    
+
     .dog-niver {
-        background-image: url("./imagens/dog-niver-mobile.png");   
-        background-size: 100% 90vh;   
-        height: 90vh;  
-    }    
-    
+        background-image: url("./imagens/dog-niver-mobile.png");
+        background-size: 100% 90vh;
+        height: 90vh;
+    }
+
     .divTitulo {
         width: 100%;
         top: 6em;
@@ -25,7 +16,7 @@
         top: 11em;
     }
 
-    .divTitulo img{
+    .divTitulo img {
         margin-top: 1em;
     }
 }
@@ -33,43 +24,50 @@
 @media(min-width:701px) {
 
     .dog-niver {
-        background-image: url("./imagens/dog-niver-web.png");  
-        background-size: 100% 150vh;   
-        height: 150vh;      
+        background-image: url("./imagens/dog-niver-web.png");
+        background-size: 100% 150vh;
+        height: 150vh;
     }
 
-    .divTitulo{
+    .divTitulo {
         top: 11em;
     }
 
     .divTitulo h2 {
         font-size: 2.1em;
         width: 60%;
-        top:7em;
+        top: 7em;
     }
 
-    .divTitulo img{
+    .divTitulo img {
         margin-top: 3em;
     }
+}
+
+.dog-niver {
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
 }
 
 .divTitulo {
     display: flex;
     color: white;
-    /* padding: 10vh; */
     position: relative;
     z-index: 1;
     flex-direction: column;
     align-items: center;
 }
 
-.divTitulo img{
+.divTitulo img {
     width: 19%;
 }
 
 .divTitulo h2 {
     display: flex;
-    /* padding: 15px; */
     text-align: center;
     font-family: 'Roboto Serif', serif;
 }
